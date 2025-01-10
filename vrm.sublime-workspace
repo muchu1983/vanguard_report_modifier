@@ -1,0 +1,826 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"T",
+				"True"
+			],
+			[
+				"is",
+				"is_bdem_ufa_turn"
+			],
+			[
+				"en",
+				"end="
+			],
+			[
+				"brea",
+				"breakpoint"
+			],
+			[
+				"He",
+				"HelloWorld"
+			],
+			[
+				"ear",
+				"earth"
+			],
+			[
+				"bay",
+				"bayt_bdem"
+			],
+			[
+				"a",
+				"aoo"
+			],
+			[
+				"ge",
+				"get_instance"
+			],
+			[
+				"mp",
+				"mp3_path"
+			],
+			[
+				"ke",
+				"key_event"
+			],
+			[
+				"key",
+				"key_event"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"is_",
+				"is_stop_block_show"
+			],
+			[
+				"stop",
+				"stop_block_shape"
+			],
+			[
+				"p",
+				"p_a"
+			],
+			[
+				"doo",
+				"door_width_degrees"
+			],
+			[
+				"p_",
+				"p_b"
+			],
+			[
+				"sh",
+				"shape_list"
+			],
+			[
+				"add",
+				"add_shape"
+			],
+			[
+				"bg",
+				"bg_rect"
+			],
+			[
+				"C",
+				"Color"
+			],
+			[
+				"v",
+				"vertices_outer"
+			],
+			[
+				"pro",
+				"processViewEvent"
+			],
+			[
+				"bg_ch",
+				"bg_change_rect"
+			],
+			[
+				"bg_ori",
+				"bg_origin_rect"
+			],
+			[
+				"bg_gri",
+				"bg_origin_img"
+			],
+			[
+				"yao",
+				"yao_num"
+			],
+			[
+				"qi",
+				"qi_set"
+			],
+			[
+				"ba",
+				"ball_will"
+			],
+			[
+				"h",
+				"hand_area"
+			],
+			[
+				"ball",
+				"ball_will"
+			],
+			[
+				"bal",
+				"ball_will"
+			],
+			[
+				"Y",
+				"Yao"
+			],
+			[
+				"ro",
+				"roll_1_hexagram"
+			],
+			[
+				"c",
+				"class"
+			],
+			[
+				"ad",
+				"append"
+			],
+			[
+				"R",
+				"RollTable"
+			],
+			[
+				"ra",
+				"range"
+			],
+			[
+				"CE",
+				"CELL_HEIGHT"
+			],
+			[
+				"W",
+				"WINDOW_HEIGHT"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"i",
+				"i_color"
+			],
+			[
+				"cel",
+				"cell_y"
+			],
+			[
+				"cell",
+				"cell_x"
+			],
+			[
+				"Ce",
+				"Cell"
+			],
+			[
+				"ce",
+				"cell_width"
+			],
+			[
+				"cells",
+				"cells_rows"
+			],
+			[
+				"col",
+				"cols"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"sp",
+				"Space"
+			],
+			[
+				"co",
+				"collision_handler"
+			],
+			[
+				"ga",
+				"game_event"
+			],
+			[
+				"placeb",
+				"place_ball"
+			],
+			[
+				"pla",
+				"place_boundaries"
+			],
+			[
+				"cr",
+				"create_boundaries"
+			],
+			[
+				"cre",
+				"create_swinging_ball"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"B",
+				"BROWN"
+			],
+			[
+				"re",
+				"rects"
+			],
+			[
+				"cal",
+				"calculate_angle"
+			],
+			[
+				"py",
+				"pymunk"
+			],
+			[
+				"create",
+				"create_ball"
+			],
+			[
+				"N",
+				"None"
+			],
+			[
+				"dra",
+				"draw_options"
+			],
+			[
+				"H",
+				"HEIGHT"
+			],
+			[
+				"luna",
+				"luna520luna520"
+			],
+			[
+				"strha",
+				"strHairColorList"
+			],
+			[
+				"strh",
+				"strHairColorList"
+			],
+			[
+				"strN",
+				"strNegativesStart"
+			],
+			[
+				"decrypt",
+				"decrypt-passfile"
+			],
+			[
+				"decry",
+				"decrypted_file"
+			],
+			[
+				"enc",
+				"encrypt-passfile"
+			],
+			[
+				"plain",
+				"plain-file-name"
+			],
+			[
+				"plai",
+				"plain-file-name"
+			],
+			[
+				"str",
+				"strEmoji"
+			],
+			[
+				"imag",
+				"image_path"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/vdl-build.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/vdl-build.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/vdl-build.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"table",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: u",
+				"Package Control: Upgrade All Packages"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"package con",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"proj",
+				"Project Manager: Open Project"
+			],
+			[
+				"package control:u",
+				"Package Control: Upgrade All Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Advanced Install Packages"
+			],
+			[
+				"up",
+				"Package Control: Upgrade All Packages"
+			],
+			[
+				"package",
+				"View Package File"
+			],
+			[
+				"pa",
+				"View Package File"
+			],
+			[
+				"preferneces",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"View Package File"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"packagecontrol",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control in",
+				"Package Control: Install Package"
+			],
+			[
+				" install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"control",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"from urllib.request import urlretrieve;urlretrieve(url=\"https://github.com/wbond/package_control/releases/latest/download/Package.Control.sublime-package\", filename=sublime.installed_packages_path() + '/Package Control.sublime-package')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/my_desktop/py_work/vanguard_report_modifier"
+	],
+	"file_history":
+	[
+		"/E/my_downloads/先鋒保全筆記0105.txt",
+		"/E/my_desktop/先鋒保全筆記0105.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO4D50809F/D0035_11.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO4D5714DF/D0035_03.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zOC5A7BD19/D0035_13.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO01FA986B/D0035_09.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_03.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_01.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_05.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_06.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_07.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_08.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_09.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_10.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_11.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_12.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_13.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_02.txt",
+		"/E/my_desktop/113_12_new/勞工局第四季/D0035_04.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO0D884A21/D0035_05.txt",
+		"/E/my_desktop/113.12/D0035_13.txt",
+		"/E/my_desktop/113.12/D0035_12.txt",
+		"/E/my_desktop/113.12/D0035_11.txt",
+		"/E/my_desktop/113.12/D0035_10.txt",
+		"/E/my_desktop/113.12/D0035_09.txt",
+		"/E/my_desktop/113.12/D0035_08.txt",
+		"/E/my_desktop/113.12/D0035_02.txt",
+		"/E/my_desktop/113.12/D0035_07.txt",
+		"/E/my_desktop/113.12/D0035_06.txt",
+		"/E/my_desktop/113.12/D0035_05.txt",
+		"/E/my_desktop/113.12/D0035_04.txt",
+		"/E/my_desktop/113.12/D0035_03.txt",
+		"/E/my_desktop/113.12/D0035_01.txt",
+		"/E/my_desktop/勞工局大改/D0035_07.txt",
+		"/E/my_desktop/勞工局大改/D0035_06.txt",
+		"/E/my_desktop/勞工局大改/D0035_05.txt",
+		"/E/my_desktop/勞工局大改/D0035_04.txt",
+		"/E/my_desktop/勞工局大改/D0035_03.txt",
+		"/E/my_desktop/勞工局大改/D0035_02.txt",
+		"/E/my_desktop/勞工局大改/D0035_01.txt",
+		"/E/my_desktop/報表修改細項.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_13.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_12.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_11.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_10.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_09.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_08.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_07.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_06.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_05.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_01.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_02.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_03.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0035_04.txt",
+		"/E/my_desktop/113.06/勞工局第二季/5.txt",
+		"/E/my_desktop/113.06/勞工局第二季/11.txt",
+		"/E/my_desktop/113.06/勞工局第二季/1.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0072.txt",
+		"/E/my_desktop/113.06/公家機關/D298交通處本部.txt",
+		"/E/my_desktop/113.12/113.12金盾/D0015.txt",
+		"/E/my_desktop/113.12/季印/1509.txt",
+		"/E/my_desktop/113.06/公家機關/D015南工處.txt",
+		"/E/my_desktop/113.12/季印/1508.txt",
+		"/E/my_desktop/113.12/季印/0694.txt",
+		"/E/my_desktop/113.12/1080.txt",
+		"/E/my_desktop/113.12/1067.txt",
+		"/E/my_desktop/113.12/0831.txt",
+		"/E/my_desktop/113.12/0760.txt",
+		"/E/my_desktop/113.06/公家機關/794.txt",
+		"/E/my_desktop/113.12/0030.txt",
+		"/E/my_desktop/113.12/0019.txt",
+		"/E/my_desktop/金盾抬頭.txt",
+		"/E/my_desktop/113.06/豫劇園/D111忠誠廳.txt",
+		"/E/my_desktop/113.06/駁二/D064駁二共創.txt",
+		"/E/my_desktop/113.06/公家機關/D072銀髣中心.txt",
+		"/E/my_desktop/113.06/公家機關/D299保修大樓.txt",
+		"/E/my_desktop/113.06/一般客戶/D282衫洞美術.txt",
+		"/E/my_desktop/113.06/勞工局第二季/3.txt",
+		"/E/my_desktop/113.06/勞工局第二季/2.txt",
+		"/E/my_desktop/113.06/一般客戶/1594.txt",
+		"/E/my_desktop/113.06/圖書館/1445.txt",
+		"/E/my_desktop/113.12/0042.txt",
+		"/E/my_desktop/113.12/0041.txt",
+		"/E/my_desktop/中油1131121-1220/中油-list.txt",
+		"/E/my_desktop/中油1131121-1220/D0233.txt",
+		"/E/my_desktop/中油1131121-1220/D0232.txt",
+		"/E/my_desktop/中油1131121-1220/D0195中山二路站.txt",
+		"/E/my_desktop/中油1131121-1220/D0196潮星站.txt",
+		"/E/my_desktop/中油1131121-1220/D0225.txt",
+		"/E/my_desktop/中油1131121-1220/D0226.txt",
+		"/E/my_desktop/中油1131121-1220/D0227.txt",
+		"/E/my_desktop/中油1131121-1220/D0228.txt",
+		"/E/my_desktop/中油1131121-1220/D0229.txt",
+		"/E/my_desktop/中油1131121-1220/D0230.txt",
+		"/E/my_desktop/中油1131121-1220/D0231.txt",
+		"/E/my_desktop/中油1131121-1220/D0234.txt",
+		"/E/my_desktop/中油1131121-1220/D0235.txt",
+		"/E/my_desktop/中油1131121-1220/D0236.txt",
+		"/E/my_desktop/中油1131121-1220/D0237.txt",
+		"/E/my_desktop/中油1131121-1220/D0238.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO0E0BFCA9/pass.yaml",
+		"/D/BennuCollection/pass/pass_20241123/pass.yaml",
+		"/D/BennuCollection/pass/pass_20241108/pass.yaml",
+		"/E/my_desktop/1131021-1120_-.txt",
+		"/E/my_downloads/1131021-1120_-.txt",
+		"/E/my_desktop/1131021-1120/D0233.txt",
+		"/E/my_desktop/1131021-1120/D0232.txt",
+		"/E/my_desktop/1131021-1120/D0226.txt",
+		"/E/my_desktop/1131021-1120/D0238.txt",
+		"/E/my_desktop/1131021-1120/D0237.txt",
+		"/E/my_desktop/1131021-1120/D0236.txt",
+		"/E/my_desktop/1131021-1120/D0235.txt",
+		"/E/my_desktop/1131021-1120/D0234.txt",
+		"/E/my_desktop/1131021-1120/D0231.txt",
+		"/E/my_desktop/1131021-1120/D0230.txt",
+		"/E/my_desktop/1131021-1120/D0229.txt",
+		"/E/my_desktop/1131021-1120/D0228.txt",
+		"/E/my_desktop/1131021-1120/D0227.txt",
+		"/E/my_desktop/1131021-1120/D0225.txt",
+		"/E/my_desktop/py_work/viewer-driven-live/tests/test_btmw.py",
+		"/E/my_desktop/py_work/viewer-driven-live/vdl/core/btmw.py",
+		"/E/my_desktop/記事本.txt",
+		"/E/my_desktop/c_work/hello.c",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO4746C324/D0234六龜站.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO474BAB04/D0231成功一路站.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO4748E474/D0232墾丁站.txt",
+		"/C/Users/Muchu Hsu/AppData/Local/Temp/7zO474E7AB4/D0233楓港站.txt",
+		"/E/my_desktop/先鋒保全筆記1024.txt"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"未知原因",
+			",[0-9]{5},",
+			"解除",
+			"沅泰",
+			"104",
+			"六龜",
+			"大寮",
+			"->",
+			"super",
+			"謝謝",
+			"電聯記錄手寫技巧：地事人時物",
+			"placeCells",
+			"add_collision_handler",
+			"apply_impulse_at_local_point",
+			"功德大貼圖",
+			"\"",
+			"password",
+			"testversion",
+			"git_clone",
+			"repo_dir",
+			"dir_repos",
+			"repositories",
+			"tiktok"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			" ",
+			"→"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.diff_views":
+	{
+		"height": 113.0
+	},
+	"output.exec":
+	{
+		"height": 133.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "vrm.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
