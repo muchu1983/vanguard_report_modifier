@@ -1,0 +1,11 @@
+//此設定檔生效位置：C:\\Users\\ABC\\AppData\\Roaming\\Sublime Text\\Packages\\User
+{
+    "working_dir": "$project_path",
+    "cmd": ["pipenv" ,"run" ,"python" ,"$file"],
+    "selector": "source.python",
+    "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+    "env": {
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONPATH": "."
+    }
+}
