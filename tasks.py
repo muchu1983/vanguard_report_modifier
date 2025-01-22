@@ -4,9 +4,9 @@ from invoke import task
 import shutil
 
 @task
-def build_exe(c):
+def build_exe(ctx):
     #打包exe
-    c.run("pyinstaller --onefile launcher.py")
+    ctx.run("pyinstaller --onefile launcher.py")
     #複製exe到根目錄下
     exe_source_file = "./dist/launcher.exe"
     exe_target_file = "./launcher.exe"

@@ -325,113 +325,57 @@
 			},
 			"undo_stack":
 			[
-			]
-		},
-		{
-			"file": "tasks.py",
-			"settings":
-			{
-				"buffer_size": 192,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
 				[
-					1,
-					1,
-					"paste",
+					3,
+					5,
+					"left_delete",
 					null,
-					"AQAAAAAAAAAAAAAATwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"BQAAAA0BAAAAAAAADQEAAAAAAAABAAAAfAwBAAAAAAAADAEAAAAAAAABAAAAKQsBAAAAAAAACwEAAAAAAAADAAAA5a6aCgEAAAAAAAAKAQAAAAAAAAMAAADoqK0JAQAAAAAAAAkBAAAAAAAAAQAAACg",
+					"AQAAAAAAAAABAAAADgEAAAAAAAAOAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					4,
+					9,
 					1,
 					"insert",
 					{
-						"characters": "\n"
+						"characters": "()"
 					},
-					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAkBAAAAAAAACgEAAAAAAAAAAAAACgEAAAAAAAALAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQEAAAAAAAAJAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					6,
+					14,
 					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAALQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					16,
-					1,
-					"insert",
+					"sequence",
 					{
-						"characters": "build"
+						"commands":
+						[
+						]
 					},
-					"BgAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAoAAABjb3B5X2ZpbGVzYAAAAAAAAABhAAAAAAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAAAAAAGIAAAAAAAAAYwAAAAAAAAAAAAAAYwAAAAAAAABkAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXwAAAAAAAABpAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAoBAAAAAAAACwEAAAAAAAAAAAAACgEAAAAAAAAMAQAAAAAAAAEAAABJCgEAAAAAAAANAQAAAAAAAAIAAABJUgoBAAAAAAAACwEAAAAAAAADAAAASVJV",
+					"AQAAAAAAAAABAAAACgEAAAAAAAAKAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					17,
+					18,
 					1,
-					"insert",
+					"sequence",
 					{
-						"characters": "_exe"
+						"commands":
+						[
+						]
 					},
-					"BAAAAGQAAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABmAAAAAAAAAAAAAABmAAAAAAAAAGcAAAAAAAAAAAAAAGcAAAAAAAAAaAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZAAAAAAAAABkAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAsBAAAAAAAADAEAAAAAAAAAAAAACwEAAAAAAAANAQAAAAAAAAEAAABOCwEAAAAAAAAOAQAAAAAAAAIAAABORQsBAAAAAAAADAEAAAAAAAADAAAATkVa",
+					"AQAAAAAAAAABAAAACwEAAAAAAAALAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					20,
 					1,
-					"paste",
-					null,
-					"AgAAAHEAAAAAAAAAvwAAAAAAAAAAAAAAvwAAAAAAAAC/AAAAAAAAAAABAAAjIOa6kOaWh+S7tuWkueWSjOebruagh+aWh+S7tuWkuQogICAgc291cmNlX2ZvbGRlciA9ICJDOi9wYXRoL3RvL3NvdXJjZS9mb2xkZXIiCiAgICB0YXJnZXRfZm9sZGVyID0gIkM6L3BhdGgvdG8vZGVzdGluYXRpb24vZm9sZGVyIgogICAgCiAgICAjIOWkjeWItuaWh+S7tgogICAgc2h1dGlsLmNvcHkoIkM6L3BhdGgvdG8vc291cmNlL2ZvbGRlci9leGFtcGxlLnR4dCIsICJDOi9wYXRoL3RvL2Rlc3RpbmF0aW9uL2ZvbGRlci9leGFtcGxlLnR4dCIp",
-					"AQAAAAAAAAABAAAAcQAAAAAAAABVAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					2,
-					"left_delete",
-					null,
-					"AgAAAG0AAAAAAAAAbQAAAAAAAAArAAAAICAgICMg5L2/55SoIFB5SW5zdGFsbGVyIOaJk+WMhSBsYXVuY2hlci5weWwAAAAAAAAAbAAAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAkAAAAAAAAABtAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					36,
-					1,
 					"insert",
 					{
-						"characters": "buil"
+						"characters": "|"
 					},
-					"BQAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACoAAAAAAAAAAsAAABGaWxlIGNvcGllZKgAAAAAAAAAqQAAAAAAAAAAAAAAqQAAAAAAAACqAAAAAAAAAAAAAACqAAAAAAAAAKsAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsgAAAAAAAACnAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					37,
-					1,
-					"insert",
-					{
-						"characters": "d"
-					},
-					"AQAAAKsAAAAAAAAArAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqwAAAAAAAACrAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					38,
-					1,
-					"insert_completion",
-					{
-						"completion": "build_exe",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "build_exe"
-					},
-					"AgAAAKcAAAAAAAAApwAAAAAAAAAFAAAAYnVpbGSnAAAAAAAAALAAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArAAAAAAAAACsAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAA0BAAAAAAAADgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADQEAAAAAAAANAQAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
@@ -444,16 +388,110 @@
 			}
 		},
 		{
+			"file": "tasks.py",
+			"redo_stack":
+			[
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "\ndef"
+					},
+					"BAAAAPMBAAAAAAAA8wEAAAAAAAABAAAAZvIBAAAAAAAA8gEAAAAAAAABAAAAZfEBAAAAAAAA8QEAAAAAAAABAAAAZPABAAAAAAAA8AEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAA9AEAAAAAAAD0AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "sk"
+					},
+					"AgAAAO8BAAAAAAAA7wEAAAAAAAABAAAAa+4BAAAAAAAA7gEAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAA8AEAAAAAAADwAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"left_delete",
+					null,
+					"AgAAAO4BAAAAAAAA7wEAAAAAAAAAAAAA7wEAAAAAAADwAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7gEAAAAAAADuAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "@test"
+					},
+					"BQAAAO8BAAAAAAAA7wEAAAAAAAABAAAAdO4BAAAAAAAA7gEAAAAAAAABAAAAc+0BAAAAAAAA7QEAAAAAAAABAAAAZewBAAAAAAAA7AEAAAAAAAABAAAAdOsBAAAAAAAA6wEAAAAAAAABAAAAQA",
+					"AQAAAAAAAAABAAAA8AEAAAAAAADwAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOsBAAAAAAAA7wEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6wEAAAAAAADrAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAOsBAAAAAAAA6wEAAAAAAAAEAAAAICAgIOoBAAAAAAAA6gEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAA7wEAAAAAAADvAQAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 527,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "tx"
+					},
+					"AgAAAGoAAAAAAAAAawAAAAAAAAAAAAAAawAAAAAAAABsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAagAAAAAAAABqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"left_delete",
+					null,
+					"AQAAAH4AAAAAAAAAfgAAAAAAAAABAAAAYw",
+					"AQAAAAAAAAABAAAAfwAAAAAAAAB/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"paste",
+					null,
+					"AQAAAH4AAAAAAAAAgQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfgAAAAAAAAB+AAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
 			"file": "res/inputs/D0035_08.txt",
 			"settings":
 			{
 				"buffer_size": 14596,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
+			}
 		}
 	],
 	"build_system": "Packages/User/vdl-build.sublime-build",
@@ -519,6 +557,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: remov",
 				"Package Control: Remove Package"
@@ -667,6 +713,9 @@
 	],
 	"file_history":
 	[
+		"/E/my_desktop/py_work/vanguard_report_modifier/vrm.sublime-project",
+		"/E/my_desktop/py_work/vanguard_report_modifier/tasks.py",
+		"/E/my_desktop/py_work/vanguard_report_modifier/launcher.spec",
 		"/E/my_desktop/py_work/vanguard_report_modifier/Pipfile.lock",
 		"/E/my_desktop/py_work/vanguard_report_modifier/Pipfile",
 		"/E/my_desktop/py_work/vanguard_report_modifier/vrm/launcher.py",
@@ -791,14 +840,11 @@
 		"/E/my_desktop/中油1131121-1220/D0195中山二路站.txt",
 		"/E/my_desktop/中油1131121-1220/D0196潮星站.txt",
 		"/E/my_desktop/中油1131121-1220/D0225.txt",
-		"/E/my_desktop/中油1131121-1220/D0226.txt",
-		"/E/my_desktop/中油1131121-1220/D0227.txt",
-		"/E/my_desktop/中油1131121-1220/D0228.txt",
-		"/E/my_desktop/中油1131121-1220/D0229.txt"
+		"/E/my_desktop/中油1131121-1220/D0226.txt"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -874,12 +920,14 @@
 						"selection":
 						[
 							[
-								45,
-								0
+								270,
+								270
 							]
 						],
 						"settings":
 						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
 							"show_definitions": false,
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
@@ -895,39 +943,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "tasks.py",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 192,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								69,
-								69
-							]
-						],
-						"settings":
-						{
-							"show_definitions": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "vrm/line_wrapper.py",
 					"semi_transient": false,
 					"settings":
@@ -945,6 +960,7 @@
 						],
 						"settings":
 						{
+							"is_init_dirty_state": false,
 							"origin_encoding": "UTF-8",
 							"show_definitions": false,
 							"syntax": "Packages/Python/Python.sublime-syntax",
@@ -956,6 +972,39 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tasks.py",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 31.3333333333,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				},
@@ -978,11 +1027,12 @@
 						],
 						"settings":
 						{
+							"is_init_dirty_state": false,
 							"show_definitions": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 694.666666667,
+						"translation.y": 695.333333333,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
