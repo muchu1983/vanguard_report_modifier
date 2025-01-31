@@ -10,8 +10,10 @@ class LineWrapper(object):
 
     def is_word_in_line(self, word):
         pattern = word
-        print(self.line)
         if re.search(pattern, self.line):
-            print(re.search(pattern, self.line).group())
+            return re.search(pattern, self.line).group()
         else:
-            print(None)
+            return None
+
+    def print_line(self):
+        print(self.line)
