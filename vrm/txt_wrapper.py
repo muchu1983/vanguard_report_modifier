@@ -19,7 +19,7 @@ class TxtWrapper(object):
             file.write(content)
 
     def load_lines(self):
-        with open(self.txt_path, 'r') as file:
+        with open(self.txt_path, 'r', encoding='utf-8') as file:
             for line in file:
                 lw = LineWrapper(line)
                 self.lines.append(lw)
