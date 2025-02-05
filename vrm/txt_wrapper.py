@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import re
 from vrm.line_wrapper import LineWrapper
 
 class TxtWrapper(object):
 
     def __init__(self, file_path):
-        super(TxtWrapper, self).__init__()
+        super().__init__()
         self.txt_path = file_path
         self.lines = []
         self.remove_bom(self.txt_path)

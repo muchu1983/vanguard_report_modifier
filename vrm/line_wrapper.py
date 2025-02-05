@@ -5,7 +5,7 @@ import re
 class LineWrapper(object):
     """docstring for LineWrapper"""
     def __init__(self, line):
-        super(LineWrapper, self).__init__()
+        super().__init__()
         self.line = line
 
     def is_word_in_line(self, word):
