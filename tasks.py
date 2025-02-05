@@ -6,10 +6,10 @@ import shutil
 @task
 def build_exe(ctx):
     #打包exe
-    ctx.run("pyinstaller --onefile launcher.py")
+    ctx.run("pyinstaller --onefile vrm.py")
     #複製exe到根目錄下
-    exe_source_file = "./dist/launcher.exe"
-    exe_target_file = "./launcher.exe"
+    exe_source_file = "./dist/vrm.exe"
+    exe_target_file = "./vrm.exe"
     shutil.copy2(exe_source_file, exe_target_file)
     #刪除打包產生的build及dist資料夾
     build_folder_path = "./build"
