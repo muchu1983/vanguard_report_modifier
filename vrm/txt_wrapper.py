@@ -27,7 +27,7 @@ class TxtWrapper(object):
     def list_duplicate_line(self):
         pre_line_word = None
         for lw in self.lines:
-            line_word = lw.is_word_in_line('(設    定)|(設定)|(解    除)|(解除)|(巡   查)|(巡查)')
+            line_word = lw.is_word_in_line('(設\\s*定)|(解\\s*除)|(巡\\s*查)')
             if line_word != pre_line_word:
                 pass
             elif line_word is not None and line_word == pre_line_word:
