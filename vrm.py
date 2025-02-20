@@ -16,13 +16,13 @@ def open_txt_file():
     txt_w.list_duplicate_line()
 
 if __name__ == "__main__":
-    open_txt_file()
-    """
+    #open_txt_file()
+    
     while True:
-        print("請輸入指令：'file'選檔，'exit'结束：")
+        print("請輸入指令：'open'選檔，'exit'结束：")
         line = input()
         if line == 'exit':
             break
-        elif line == 'file':
+        elif line == 'open':
             open_txt_file()
-    """
+    

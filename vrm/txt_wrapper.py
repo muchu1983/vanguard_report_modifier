@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import re
 from vrm.line_wrapper import LineWrapper
 
 class TxtWrapper(object):
@@ -27,10 +28,9 @@ class TxtWrapper(object):
     def list_duplicate_line(self):
         pre_line_word = None
         for lw in self.lines:
-            line_word = lw.is_word_in_line(r'(設\s*定)|(解\s*除)|(巡\s*查)')
-            
-            if line_word != pre_line_word:
-                pass
-            elif line_word is not None and line_word == pre_line_word:
-                lw.print_line()
-            pre_line_word = line_word
+            line_word = lw.is_word_in_line(r'(設\s*定)|(解\s*除)')
+            if line_word is not None:
+                line_word = re.sub(r'\s+', '', line_word)
+                if line_word == pre_line_word:
+                    lw.print_line()
+                pre_line_word = line_word
