@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import re
+from typing import Union
 
 class LineWrapper(object):
     """docstring for LineWrapper"""
@@ -15,5 +16,5 @@ class LineWrapper(object):
         else:
             return None
 
-    def print_line(self):
-        print(self.line)
+    def get_line(self) -> Union[None, str]:
+        return self.line
