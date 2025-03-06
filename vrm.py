@@ -16,13 +16,15 @@ def open_txt_file():
     txt_w.list_duplicate_line()
 
 if __name__ == "__main__":
+    # develop 區
     open_txt_file()
-    """
-    while True:
-        print("請輸入指令：'open'選檔，'exit'结束：")
-        line = input()
-        if line == 'exit':
-            break
-        elif line == 'open':
-            open_txt_file()
-    """
+    
+    # invoke build-exe 區
+    # while True:
+    #     print("請輸入指令：'open'選檔，'exit'结束：")
+    #     line = input()
+    #     if line == 'exit':
+    #         break
+    #     elif line == 'open':
+    #         open_txt_file()
+

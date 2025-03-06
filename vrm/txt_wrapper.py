@@ -34,7 +34,7 @@ class TxtWrapper(object):
                 line_word = re.sub(r'\s+', '', line_word)  #清除空白
                 if line_word =='巡設':
                     line_word = '設定'  #巡設等同設定
-                    print('注意：檢查到巡設')
+                    print('注意：{} 檢查到巡設'.format(line_time))
                 if line_word == pre_line_word:
                     print('重覆：{} 內容：{}'.format(line_time, lw.get_line()))
                 pre_line_word = line_word
