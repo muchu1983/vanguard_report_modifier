@@ -4,7 +4,7 @@ import re
 from typing import Union
 
 class LineWrapper(object):
-    """docstring for LineWrapper"""
+    
     def __init__(self, line):
         super().__init__()
         self.line = line
@@ -18,3 +18,6 @@ class LineWrapper(object):
 
     def get_line(self) -> Union[None, str]:
         return self.line
+
+    def set_line(self, line):
+        self.line = line

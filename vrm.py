@@ -12,7 +12,6 @@ def open_txt_file():
         filetypes=[("文本文件", "*.txt")])
     print(txt_path)
     txt_w = TxtWrapper(txt_path)
-    txt_w.load_lines()
     txt_w.list_duplicate_line()
 
 if __name__ == "__main__":

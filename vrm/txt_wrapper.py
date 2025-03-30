@@ -5,17 +5,20 @@ from vrm.line_wrapper import LineWrapper
 
 class TxtWrapper(object):
 
-    def __init__(self, file_path):
+    def __init__(self, txt_path):
         super().__init__()
-        self.txt_path = file_path
+        self.txt_path = txt_path
         self.lines = []
-        self.remove_bom(self.txt_path)
+        self.remove_bom()
+        self.load_lines()
+        self.remove_word_in_line(r',\d{0,5},$') #刪除尾部數字
+        self.remove_word_in_line(r'未知原因')
 
-    def remove_bom(self, file_path):
+    def remove_bom(self):
         content = None
-        with open(file_path, 'r', encoding='utf-8-sig') as file:
+        with open(self.txt_path, 'r', encoding='utf-8-sig') as file:
             content = file.read()
-        with open(file_path, 'w', encoding='utf-8') as file:
+        with open(self.txt_path, 'w', encoding='utf-8') as file:
             file.write(content)
 
     def load_lines(self):
@@ -39,3 +42,13 @@ class TxtWrapper(object):
                     print('重覆：{} 內容：{}'.format(line_time, lw.get_line()))
                 pre_line_word = line_word
     
+    def remove_word_in_line(self, raw_string):
+        pattern = re.compile(raw_string)
+        for lw in self.lines:
+            new_line = pattern.sub('', lw.get_line())
+            lw.set_line(new_line)
+        self.save_txt()
+
+    def save_txt(self):
+        with open(self.txt_path, 'w', encoding='utf-8') as file:
+            file.writelines(lw.get_line() for lw in self.lines)
