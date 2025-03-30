@@ -6,7 +6,7 @@ from vrm.txt_wrapper import TxtWrapper
 
 def open_txt_file():
     txt_path = filedialog.askopenfilename(
-        title="選擇txt檔案",
+        title="選擇.txt檔案",
         filetypes=[("文本文件", "*.txt")])
     print(txt_path)
     txt_w = TxtWrapper(txt_path)
@@ -15,10 +15,10 @@ def open_txt_file():
 
 def show_ui():
     root = tk.Tk()
-    root.title("先鋒報表修改器")
+    root.title("先鋒報表")
     button = tk.Button(
         root,
-        text="選擇.txt檔",
+        text="選擇.txt檔案",
         command=open_txt_file,
         width=40,
         height=3

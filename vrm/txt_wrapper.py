@@ -56,7 +56,6 @@ class TxtWrapper(object):
     def list_duplicate_patrol(self):
         pattern_patrol_word = re.compile(r'(巡\s*查)')
         pattern_patrol_day = re.compile(r'^\d\d/\d\d')
-        patrol_count = 0
         patrol_day_record = []
         for lw in self.lines:
             patrol_word = pattern_patrol_word.search(lw.get_line())
@@ -64,6 +63,5 @@ class TxtWrapper(object):
             if patrol_word is not None and patrol_day is not None:
                 if patrol_day.group() in patrol_day_record:
                     print('重覆巡查日：{}'.format(lw.get_line()))
-                patrol_count += 1
                 patrol_day_record.append(patrol_day.group())
-        print('總巡查筆數：{}'.format(patrol_count))
+        print('總巡查筆數：{}=>{}'.format(len(patrol_day_record), patrol_day_record))
