@@ -12,7 +12,8 @@ def open_txt_file():
         filetypes=[("文本文件", "*.txt")])
     print(txt_path)
     txt_w = TxtWrapper(txt_path)
-    txt_w.list_duplicate_line()
+    txt_w.list_duplicate_set_and_unset()
+    txt_w.list_duplicate_patrol()
 
 if __name__ == "__main__":
     # develop 區

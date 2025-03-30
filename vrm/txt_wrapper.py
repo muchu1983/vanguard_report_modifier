@@ -26,9 +26,9 @@ class TxtWrapper(object):
             for line in file:
                 lw = LineWrapper(line)
                 self.lines.append(lw)
-            print(len(self.lines))
+            print('讀取總筆數：{}'.format(len(self.lines)))
 
-    def list_duplicate_line(self):
+    def list_duplicate_set_and_unset(self):
         pre_line_word = None
         for lw in self.lines:
             line_time = lw.is_word_in_line(r'(^\d\d/\d\d[\s,]\d\d:\d\d)')
@@ -52,3 +52,18 @@ class TxtWrapper(object):
     def save_txt(self):
         with open(self.txt_path, 'w', encoding='utf-8') as file:
             file.writelines(lw.get_line() for lw in self.lines)
+
+    def list_duplicate_patrol(self):
+        pattern_patrol_word = re.compile(r'(巡\s*查)')
+        pattern_patrol_day = re.compile(r'^\d\d/\d\d')
+        patrol_count = 0
+        patrol_day_record = []
+        for lw in self.lines:
+            patrol_word = pattern_patrol_word.search(lw.get_line())
+            patrol_day = pattern_patrol_day.search(lw.get_line())
+            if patrol_word is not None and patrol_day is not None:
+                if patrol_day.group() in patrol_day_record:
+                    print('重覆巡查日：{}'.format(lw.get_line()))
+                patrol_count += 1
+                patrol_day_record.append(patrol_day.group())
+        print('總巡查筆數：{}'.format(patrol_count))
