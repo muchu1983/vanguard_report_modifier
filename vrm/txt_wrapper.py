@@ -26,7 +26,7 @@ class TxtWrapper(object):
             for line in file:
                 lw = LineWrapper(line)
                 self.lines.append(lw)
-            print('讀取總筆數：{}'.format(len(self.lines)))
+            print('讀取總行數：{}'.format(len(self.lines)))
 
     def list_duplicate_set_and_unset(self):
         pre_line_word = None
