@@ -30,7 +30,7 @@ if __name__ == "__main__":
     # develop 區
     open_txt_file()
     
-    # invoke build-exe 區
+    # 輸出執行檔時解開此區 ($invoke build-win | build-linux)
     # while True:
     #     print("請輸入指令：'open'選檔，'button'圖形介面, 'exit'结束：")
     #     line = input()
