@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import filedialog
 from vrm.txt_wrapper import TxtWrapper
 
+
 def open_txt_file():
     txt_path = filedialog.askopenfilename(
         title="選擇.txt檔案",
@@ -12,6 +13,7 @@ def open_txt_file():
     txt_w = TxtWrapper(txt_path)
     txt_w.list_duplicate_set_and_unset()
     txt_w.list_duplicate_patrol()
+
 
 def show_ui():
     root = tk.Tk()
@@ -25,6 +27,7 @@ def show_ui():
     )
     button.pack(pady=5)  # 将按钮添加到窗口
     root.mainloop()
+
 
 if __name__ == "__main__":
     # develop 區
