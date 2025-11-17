@@ -25,7 +25,7 @@ def build_linux(ctx):
     ctx.run("pyinstaller --onefile vrm.py")
     #複製exe到根目錄下
     bin_source_file = "./dist/vrm"
-    bin_target_file = "./vrm"
+    bin_target_file = "./vrm.bin"
     shutil.copy2(bin_source_file, bin_target_file)
     #刪除打包產生的build及dist資料夾
     build_folder_path = "./build"
