@@ -3,6 +3,7 @@
 import re
 from typing import Union
 
+
 class LineWrapper(object):
     
     def __init__(self, line):

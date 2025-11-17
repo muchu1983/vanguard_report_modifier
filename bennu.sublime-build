@@ -1,4 +1,5 @@
 //此設定檔生效位置：C:\\Users\\ABC\\AppData\\Roaming\\Sublime Text\\Packages\\User
+//此設定檔生效位置：/home/muchu1983/.config/sublime-text/Packages/User
 {
     "working_dir": "$project_path",
     "cmd": ["pipenv" ,"run" ,"python" ,"$file"],
